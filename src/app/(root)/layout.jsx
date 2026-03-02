@@ -1,13 +1,15 @@
+// src/app/(root)/layout.jsx
+"use client";
 
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const RootLayout = ({ children }) => {
+export default function RootLayout({ children }) {
   return (
     <>
-      {/* <Navbar /> */}
-      {children}
-      {/* <TFooter /> */}
+      <Navbar />      
+      <main>{children}</main> 
+      <Footer />        
     </>
-  )
+  );
 }
-
-export default RootLayout

@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Column 01 */}
         <div className='flex flex-col lg:items-start items-center w-full'>
           <Link href="/">
-            <Image src="/images/logos/newlogo_test.png" alt="logo" width={200} height={70} className="w-40 sm:w-35 md:w-34 lg:w-57 lg:h-14 xl:w-60 xl:h-16" />
+            <Image src="/images/logo.png" alt="logo" width={200} height={70} className="w-40 sm:w-35 md:w-34 lg:w-57 lg:h-14 xl:w-60 xl:h-16" />
           </Link>
           <p className='mt-6 text-center lg:text-left text-md xl:text-lg text-white/80'>
             Genesis Trainings empowers individuals through practical, industry-relevant IT education. We bridge the skills gap by fostering innovation, leadership, and growth—helping learners unlock their potential and thrive in their careers.
@@ -18,17 +18,16 @@ const Footer = () => {
         </div>
 
         {/* Column 02 */}
-        <div className='flex flex-col lg:items-start items-center w-full'>
+        {/* <div className='flex flex-col lg:items-start items-center w-full'>
           <ul className='grid grid-cols-3 sm:grid sm:grid-cols-3 lg:flex lg:flex-col gap-4 justify-between text-md pt-5 sm:pt-5 md:pt-2 lg:pt-20 text-white/80 lg:space-y-1.5'>
             <li><Link href="/about">About Us</Link></li>
             <li><Link href="/trainings">Trainings</Link></li>
-            {/* <li><Link href="/womenempowerment">Women Empowerment</Link></li> */}
             <li><Link href="/future">FutureMinds</Link></li>
             <li><Link href="/incubator">Incubator</Link></li>
             <li><Link href="/contact">Contact Us</Link></li>
             <li><Link href="/upcomingevents">Upcoming Events</Link></li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Column 03 */}
         <div className='flex flex-col w-full items-center lg:items-start sm:text-center md:text-left'>
@@ -68,4 +67,4 @@ const Footer = () => {
   )
 }
 
-export default TFooter
+export default Footer
