@@ -9,7 +9,7 @@ export default function Hero() {
   const slides = [
     { src: "/images/OutsideSchool.png", alt: "OutsideSchool", href: "/" },
     { src: "/images/BusStand.png", alt: "Bus Stand ", href: "/" },
-    { src: "/images/Classroom.png", alt: "Classroom", href: "/" },
+    { src: "/images/Class.png", alt: "Classroom", href: "/" },
     { src: "/images/Playground.png", alt: "Playground", href: "/" },
     { src: "/images/ChemistryLab.png", alt: "ChemistryLab", href: "/" },
     { src: "/images/Auditorium.png", alt: "Auditorium", href: "/" },
