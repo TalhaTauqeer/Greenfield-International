@@ -38,7 +38,7 @@ export default function Hero() {
   }, [nextSlide]); // Dependency array only includes nextSlide
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative mt-15">
       <div
         className={`flex transition-all ease-out duration-500`}
         style={{
@@ -79,10 +79,10 @@ export default function Hero() {
       </div>
 
       {/* Navigation and Dots Container */}
-      <div className="absolute bottom-1.5 md:bottom-5 left-1/2 transform -translate-x-1/2 flex justify-center items-center gap-2 md:gap-5 bg-transparent py-0 px-0 sm:py-1 sm:px-2 lg:py-0.5 lg:px-2.5 xl:py-1 xl:px-3 rounded-full shadow-md sm:text-sm">
+      <div className="absolute bottom-1.5 md:bottom-5 left-1/2 transform -translate-x-1/2 flex justify-center items-center gap-2 md:gap-5 bg-opacity-10 bg-gray-300 py-0 px-0 sm:py-1 sm:px-2 lg:py-0.5 lg:px-2.5 xl:py-1 xl:px-3 rounded-full shadow-md sm:text-sm">
         <button
           onClick={previousSlide}
-          className="text-md md:text-xl lg:text-2xl text-blue-500 font-bold rounded-full p-1 md:p-2 hover:bg-gray-200 sm:p-1 sm:text-xl"
+          className="text-md md:text-xl lg:text-2xl text-cyan-600 font-bold rounded-full p-1 md:p-2 hover:bg-gray-200 sm:p-1 sm:text-xl"
         >
           <IoIosArrowBack />
         </button>
@@ -94,7 +94,7 @@ export default function Hero() {
               key={"circle" + i}
               onClick={() => setCurrent(i)}
               className={`rounded-full w-2 h-2 md:w-2 md:h-2 lg:w-3 lg:h-3 cursor-pointer ${
-                i === current ? "bg-blue-500" : "bg-gray-500"
+                i === current ? "bg-cyan-600" : "bg-gray-500"
               }`}
             ></div>
           ))}
@@ -102,7 +102,7 @@ export default function Hero() {
 
         <button
           onClick={nextSlide}
-          className="text-md md:text-xl lg:text-2xl text-blue-500 font-bold rounded-full p-1 md:p-2 hover:bg-gray-200 sm:p-1 sm:text-xl"
+          className="text-md md:text-xl lg:text-2xl text-cyan-600 font-bold rounded-full p-1 md:p-2 hover:bg-gray-200 sm:p-1 sm:text-xl"
         >
           <IoIosArrowForward />
         </button>
