@@ -1,4 +1,3 @@
-// src/app/(root)/layout.jsx
 "use client";
 
 import Navbar from "@/components/Navbar";

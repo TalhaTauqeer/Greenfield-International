@@ -4,7 +4,7 @@ import { Pricing } from '@/components/Pricing'
 import { Future } from '@/components/Future'
 import TabCourse from '@/components/Tabcourse'
 import HeroSlider from '@/components/HeroSlider'
-import Partners from '@/components/Partners'
+import StudentsEn from '@/components/StudentsEn'
 import { Tiles } from '@/components/Tiles'
 import Mission from '@/components/Mission'
 import Empower from '@/components/Empower'
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Partners />
+      <StudentsEn />
       <TabCourse />
       <Tiles />
       <Mission />
