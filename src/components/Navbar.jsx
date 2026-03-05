@@ -133,7 +133,7 @@ export default function Navbar() {
                   stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
-                  <path
+                  <path 
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
